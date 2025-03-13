@@ -168,7 +168,8 @@ int main(void) {
 
   // Save bootloader version to pre-defined register, retrieved by application
   // TODO move to CF2
-  BOOTLOADER_VERSION_REGISTER = (MK_BOOTLOADER_VERSION);
+  // v1.0
+  BOOTLOADER_VERSION_REGISTER = (1 << 16) | (0);
 
   board_init();
   bootloader_init();
