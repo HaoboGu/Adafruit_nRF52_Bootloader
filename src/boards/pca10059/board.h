@@ -30,25 +30,22 @@
 /*------------------------------------------------------------------*/
 /* LED
  *------------------------------------------------------------------*/
-#define LEDS_NUMBER       2
-#define LED_PRIMARY_PIN   6 // Red
-#define LED_SECONDARY_PIN 12 // Blue
+#define LEDS_NUMBER       1
+#define LED_PRIMARY_PIN   20
 #define LED_STATE_ON      0
 
 /*------------------------------------------------------------------*/
 /* BUTTON
  *------------------------------------------------------------------*/
-#define BUTTONS_NUMBER  2
-
-#define BUTTON_1       _PINNUM(1, 6)
-#define BUTTON_2       _PINNUM(1, 10)
-#define BUTTON_PULL    NRF_GPIO_PIN_PULLUP
+#define BUTTONS_NUMBER    1  // none connected at all
+#define BUTTON_1          _PINNUM(0, 18)  // unusable: RESET
+#define BUTTON_PULL       NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER  "Nordic"
-#define BLEDIS_MODEL         "PCA10059"
+#define BLEDIS_MANUFACTURER  "RMK"
+#define BLEDIS_MODEL         "Corne-Adjustment"
 
 //--------------------------------------------------------------------+
 // USB
@@ -59,8 +56,9 @@
 #define USB_DESC_UF2_PID       0x0029
 #define USB_DESC_CDC_ONLY_PID  0x0029
 
-#define UF2_PRODUCT_NAME  "Nordic nRF52840 Dongle"
-#define UF2_BOARD_ID      "nRF52840-pca10059-v1"
-#define UF2_INDEX_URL     "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52840-Dongle"
+#define UF2_PRODUCT_NAME  "Corne Adjustment"
+#define UF2_VOLUME_LABEL   "Corne"
+#define UF2_BOARD_ID      "Corne-Adjustment-Left"
+#define UF2_INDEX_URL     "https://www.elimkeys.com/en/"
 
 #endif // PCA10059_H
