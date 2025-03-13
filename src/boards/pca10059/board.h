@@ -59,6 +59,6 @@
 #define UF2_PRODUCT_NAME  "Corne Adjustment"
 #define UF2_VOLUME_LABEL   "Corne"
 #define UF2_BOARD_ID      "Corne-Adjustment-Left"
-#define UF2_INDEX_URL     "https://www.elimkeys.com/en/"
+#define UF2_INDEX_URL     "https://github.com/haobogu/Adafruit_nRF52_Bootloader"
 
 #endif // PCA10059_H
