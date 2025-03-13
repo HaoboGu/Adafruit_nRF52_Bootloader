@@ -59,7 +59,7 @@
 #define USB_DESC_CDC_ONLY_PID  0x0029
 
 #define UF2_PRODUCT_NAME  "Corne Adjustment"
-#define UF2_VOLUME_LABEL   "Corne Adjustment"
+#define UF2_VOLUME_LABEL   "Corne Adj"
 #define UF2_BOARD_ID      "Corne-Adjustment-Right"
 #define UF2_INDEX_URL     "https://github.com/haobogu/Adafruit_nRF52_Bootloader"
 
