@@ -37,9 +37,10 @@
 /*------------------------------------------------------------------*/
 /* BUTTON
  *------------------------------------------------------------------*/
-#define BUTTONS_NUMBER    1  // none connected at all
-#define BUTTON_1          _PINNUM(0, 18)  // unusable: RESET
-#define BUTTON_PULL       NRF_GPIO_PIN_PULLUP
+#define BUTTONS_NUMBER        2
+#define BUTTON_1              _PINNUM(0, 18)  // reset
+#define BUTTON_2              _PINNUM(0, 26)  // P1.07: NC
+#define BUTTON_PULL           NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
 // BLE OTA
