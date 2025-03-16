@@ -40,7 +40,7 @@
  *------------------------------------------------------------------*/
 #define BUTTONS_NUMBER        2
 #define BUTTON_1              _PINNUM(0, 18)  // reset
-#define BUTTON_2              _PINNUM(0, 26)  // P1.07: NC
+#define BUTTON_2              _PINNUM(0, 26)  // P0.26: NC
 #define BUTTON_PULL           NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
