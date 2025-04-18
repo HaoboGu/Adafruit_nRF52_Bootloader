@@ -22,8 +22,8 @@
  * THE SOFTWARE.
  */
 
-#ifndef _CORNE_RIGHT_H
-#define _CORNE_RIGHT_H
+#ifndef _CORNE_LEFT_H
+#define _CORNE_LEFT_H
 
 
 #define _PINNUM(port, pin)    ((port)*32 + (pin))
@@ -46,8 +46,8 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER  "RMK"
-#define BLEDIS_MODEL         "Corne-Adjustment"
+#define BLEDIS_MANUFACTURER  "Jezail Funder"
+#define BLEDIS_MODEL         "cornix"
 
 //--------------------------------------------------------------------+
 // USB
@@ -58,9 +58,9 @@
 #define USB_DESC_UF2_PID       0x0029
 #define USB_DESC_CDC_ONLY_PID  0x0029
 
-#define UF2_PRODUCT_NAME  "Corne Adjustment"
-#define UF2_VOLUME_LABEL   "Corne Adj"
-#define UF2_BOARD_ID      "Corne-Adjustment-Right"
+#define UF2_PRODUCT_NAME  "cornix"
+#define UF2_VOLUME_LABEL   "cornix"
+#define UF2_BOARD_ID      "cornix"
 #define UF2_INDEX_URL     "https://github.com/haobogu/Adafruit_nRF52_Bootloader"
 
 #endif
